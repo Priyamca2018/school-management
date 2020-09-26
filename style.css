@@ -857,9 +857,9 @@ head, body{
 
     }
 
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         /* insert styles here */
-        .parent {
+       /* .parent {
             width: 100%;
             height: 100%;
         }
@@ -985,7 +985,7 @@ head, body{
             margin-top: 10px;
             margin-bottom: 10px;
         }
-    }
+    }*/
     @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
     @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
     @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
