@@ -221,7 +221,7 @@ head, body{
 }
 
 .school {
-    background-image: url("C:/ufaber/images/school.jpg");
+    background-image: url("https://i.postimg.cc/RCfv4GmX/school.png");
     display: flex;
     width: 570px;
     height: 367px;
@@ -671,12 +671,6 @@ head, body{
         fill: #37575E;
       }
     /* footer */
-    .footer {
-        width: 1440px;
-        height: 307px;
-        background: #635D5D 0% 0% no-repeat padding-box;
-        opacity: 1;
-    }
 
     /* copyright */
     .copyright{
@@ -726,7 +720,85 @@ head, body{
     .footer-social-container {
         flex:1; display: flex; flex-direction: column; margin-left: 20px;
     }
-    /* @media only screen and (min-device-width: 320px) and (max-device-width: 480px)  { 
+
+    @media  screen and (max-width: 1366px) {
+        .prgs-container {
+            display: flex; flex-direction: column; margin-left: 10px;
+        }
+    
+        .cards {
+            display: flex; margin-top: 10px; flex-direction: row;
+        }
+        .margin-cards {
+            margin-left: 20px;
+        }
+        .img-card-container {
+            width:100%; display: flex; flex-direction: row;
+        }
+    
+        .absolute-img {
+            border: 3px solid #000000; display: flex; border-radius: 8px; position: absolute; margin-top: -35%; margin-left: 30%;
+        }
+    
+        .ftr-container {
+            width:100%; height:307px; display: flex;
+        }
+    
+        .footer-wrapper {
+            width:100%; background-color: #635D5D; height: 514px; display: flex; flex-direction: column;
+        }
+    
+        .footer-social-container {
+            flex:1; display: flex; flex-direction: column; margin-left: 20px;
+        }
+
+        
+        .footer-img-subtitle {
+            text-align: left;
+            font: normal normal 300 12px/15px Montserrat;
+            letter-spacing: 1.2px;
+            color: #FFFFFF;
+            margin-top: 6px;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+
+        .footer-item {
+            text-align: left;
+            font: normal normal normal 14px/26px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+        }
+
+        .footer-title {
+            text-align: left;
+            font: normal normal 600 14px/36px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            font: normal normal normal 14px/22px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+        }
+        .card-content {
+            width: 255px;
+            height: 258px;
+            background: #F6FEFF 0% 0% no-repeat padding-box;
+            box-shadow: 3px 3px 0px #0000001A;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+        }    
+        
+    }
+     @media only screen and (min-device-width: 320px) and (max-device-width: 480px)  { 
         .parent {
             width: 100%;
             height: 100%;
@@ -854,11 +926,11 @@ head, body{
             margin-bottom: 10px;
         }
 
-    } */
+    } 
 
-    /*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         /* insert styles here */
-       /* .parent {
+        .parent {
             width: 100%;
             height: 100%;
         }
@@ -984,9 +1056,4 @@ head, body{
             margin-top: 10px;
             margin-bottom: 10px;
         }
-    }*/
-    @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-    @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-    @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-    @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-    @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+    }
