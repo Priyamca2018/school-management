@@ -71,6 +71,9 @@ head, body{
     display: flex; 
     align-items: center;   
 }
+.navbar-default {
+    background-color: #FFFFFF !important;
+}
 .logo{
     height: 20px;
     width: 200px;
@@ -218,7 +221,7 @@ head, body{
 }
 
 .school {
-    background-image: url("https://www.udrop.com/Cj8/school.jpg");
+    background-image: url("C:\ufaber\images\school.jpg");
     display: flex;
     width: 570px;
     height: 367px;
