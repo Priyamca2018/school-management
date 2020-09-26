@@ -539,12 +539,10 @@ head, body{
         margin-left: 10px;
     }
 
-    #cls-info{
-        width: 339px; 
-        height: 25px; 
+    .cls-info{
         text-align: left;
-        font-style: Granstander Clean; 
-        letter-spacing: 0px; 
+        font: normal normal normal 25px/24px Granstander Clean;
+        letter-spacing: 0px;
         color: #333333;
     }
     #card-info{
@@ -698,7 +696,7 @@ head, body{
     .cards {
         display: flex; margin-top: 10px; flex-direction: row;
     }
-    .margin-cards {
+    #margin-cards {
         margin-left: 20px;
     }
     .img-card-container {
@@ -722,15 +720,21 @@ head, body{
     }
 
     @media  screen and (max-width: 1366px) {
+        .cls-info{
+            text-align: left;
+            font: normal normal normal 25px/24px Granstander Clean;
+            letter-spacing: 0px;
+            color: #333333;
+        }
+        #margin-cards {
+            margin-left: 20px;
+        }
         .prgs-container {
             display: flex; flex-direction: column; margin-left: 10px;
         }
     
         .cards {
             display: flex; margin-top: 10px; flex-direction: row;
-        }
-        .margin-cards {
-            margin-left: 20px;
         }
         .img-card-container {
             width:100%; display: flex; flex-direction: row;
