@@ -1,3 +1,4 @@
+
 head, body{
     margin: 0;
     padding:0;
@@ -6,7 +7,8 @@ head, body{
     /* button */
 .parent {
     width: 100%; 
-    height: 100%
+    height: 100%;
+    background-color: #FBFCF7;
 }
 
 .navbar-custom {
@@ -21,8 +23,8 @@ head, body{
     display: flex; align-items: center;
 }
 .usr-icon-container{
-    width: 36px;
-    height: 36px; 
+    width: 34px;
+    height: 34px; 
     background-color: #BFFE8A; 
     border-radius: 18px; 
     display: flex; 
@@ -31,18 +33,19 @@ head, body{
 }
 #usr-icon{
    color: #A0E467;
-   font-size:33px;
+   font-size:30px;
 }
 #bread-crum-container{
     padding-left:130px;
     padding-right: 130px;  
+    background-color: #FBFCF7;
 }
 #bread-crum-custom{
     display: flex; 
     flex:1; 
-    flex-direction: 
-    row; align-items: 
-    center; margin-top: 10px;
+    flex-direction: row; 
+    align-items: center; 
+    margin-top: 10px;
 
 }
 .nav-parent {
@@ -190,7 +193,8 @@ head, body{
 
 .price-txt {
         text-align: left;
-        font: normal normal normal 18px/22px Granstander Clean;
+        font: normal normal normal 18px/22px Grandstander;
+        font-family: 'Grandstander';
         letter-spacing: 0px;
         color: #333333;
         margin-left: 20px;
@@ -245,7 +249,7 @@ head, body{
 
 .watch-trailer-text {
     text-align: left;
-    font: normal normal normal 16px/24px Granstander Clean;
+    font: normal normal normal 16px/24px Granstander;
     letter-spacing: 0px;
     color: #333333;
     margin-left: 15px;
@@ -367,7 +371,8 @@ head, body{
     }
 
     .book-txt {
-        font: normal normal normal 16px/19px Granstander Clean;
+        font: normal normal normal 16px/19px Granstander;
+        font-family: 'Grandstander';
         letter-spacing: 0px;
         color: #FFFFFF;
         margin-top: 10px;
@@ -388,7 +393,8 @@ head, body{
 
     .share-txt {
         text-align: center;
-        font: normal normal normal 14px/17px Granstander Clean;
+        font: normal normal normal 14px/17px Granstander;
+        font-family: 'Grandstander';
         letter-spacing: 0px;
         color: #FF3A58;
         margin-top: 10px;
@@ -421,19 +427,17 @@ head, body{
         font: normal normal medium 15px/28px Montserrat;
         letter-spacing: 0px;
         color: #ADBABD;
-        width: 40px;         
     }
-
     .nav-page {
         text-align: left;
         letter-spacing: 0px;
         color: #000000;
-        font-style: Granstander Clean;
+        font-family: Granstander;
     }
 
     .image-title {
         text-align: center;
-        font-style: Granstander Clean;
+        font-family: 'Grandstander', cursive;
         letter-spacing: 0px;
         color: #333333;
         font-weight: bold;
@@ -470,7 +474,8 @@ head, body{
 
     .goal-txt {
         text-align: center;
-        font: normal normal normal 16px/28px Granstander Clean;
+        font: normal normal normal 16px/28px Granstander;
+        font-family: 'Grandstander';
         letter-spacing: 0px;
         color: #FFFFFF;
         opacity: 1;
@@ -525,14 +530,16 @@ head, body{
         align-items: center;
         justify-content: center;
         text-align: center;
-        font: normal normal normal 14px/17px Granstander Clean;
+        font: normal normal normal 14px/17px Granstander;
+        font-family: 'Grandstander';
         letter-spacing: 0px;
         color: #37575E;
     }
 
     .goal-info-txt {
         text-align: center;
-        font: normal normal normal 16px/19px Granstander Clean;
+        font: normal normal normal 16px/19px Granstander;
+        font-family: 'Grandstander', cursive;
         letter-spacing: 0px;
         color: #262525;
         opacity: 1;
@@ -541,7 +548,7 @@ head, body{
 
     .cls-info{
         text-align: left;
-        font: normal normal normal 25px/24px Granstander Clean;
+        font-family: 'Grandstander', cursive;
         letter-spacing: 0px;
         color: #333333;
     }
@@ -646,7 +653,7 @@ head, body{
     }
 
     .svg {
-        height: 8vh;
+        height: 9vh;
         margin: auto;
         display: block;
       }
@@ -655,11 +662,11 @@ head, body{
       .path-grey {
         stroke: lightgrey;
         stroke-linecap: round;
-        stroke-width: 2;
+        stroke-width: 6;
       }
       
       .path-purple {
-        stroke: purple;
+        stroke: blue;
         stroke-dasharray: calc(40 * 3.142 * 1.85);
         stroke-dashoffset: 80;
       }
@@ -722,7 +729,8 @@ head, body{
     @media  screen and (max-width: 1366px) {
         .cls-info{
             text-align: left;
-            font: normal normal normal 25px/24px Granstander Clean;
+            font: normal normal normal 25px/24px Granstander;
+            font-family: 'Grandstander', cursive;
             letter-spacing: 0px;
             color: #333333;
         }
@@ -1061,3 +1069,170 @@ head, body{
             margin-bottom: 10px;
         }
     }
+
+
+     /* nabvar style */
+
+    .navbar {
+        font-size: 18px;
+        background-color: #ffffff;
+        box-shadow: 0px 1px 10px #0000001A;
+      }
+      
+      #main-nav {
+        list-style-type: none;
+        display: none;
+        flex-direction: column;
+      }
+    
+      #main-nav-container {
+        display: none;
+        flex-direction: column;
+        background-color: grey;
+      }
+      
+      #main-nav li {
+        text-align: center;
+        margin: 15px auto;
+        font-family: 'Grandstander';
+        font: normal normal normal 14px/25px Granstander Clean;
+      }
+      
+      .nav-links,
+      #logo {
+        text-decoration: none;
+        color: #000000;
+      }
+      
+      #logo:hover,
+      .nav-links:hover {
+        /* color: rgba(255, 255, 255, 1); */
+      }
+      
+      #logo {
+        display: inline-block;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-left: 0px;
+      }
+      
+      #navbar-toggle {
+        top: 10px;
+        cursor: pointer;
+        color: #000000;
+        font-size: 24px;
+      }
+      
+    
+      @media screen and (min-width: 768px) {
+      
+        .navbar {
+          display: flex;
+          justify-content: space-evenly;
+          padding-bottom: 0;
+          height: 70px;
+          align-items: center;
+        }
+      
+        #main-nav {
+          display: flex !important;
+          margin-right: 30px;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+        }
+    
+        #main-nav-container {
+          display: flex !important;
+          margin-right: 30px;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 10px;
+        }
+      
+        #main-nav li {
+          margin: 0;
+          font-family: 'Grandstander';
+        }
+      
+        .nav-links {
+          margin-left: 40px;
+        }
+      
+        #logo {
+          margin-top: 0;
+        }
+    
+        .price-btn {
+            margin-left: 60px;
+        }
+      
+      }
+
+
+/* progress bar  */
+
+
+.progress-circle {
+    font-size: 20px;
+    margin: 20px;
+    position: relative;
+    /* so that children can be absolutely positioned */
+    padding: 0;
+    width: 3em;
+    height: 3em;
+    background-color: grey;
+    border-radius: 50%;
+    line-height: 5em;
+  }
+  
+  .progress-circle:after {
+    border: none;
+    position: absolute;
+    top: 0.15em;
+    left: 0.15em;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    width: 2.7em;
+    height: 2.7em;
+    background-color: white;
+    content: " ";
+  }
+
+  .progress-circle span {
+    position: absolute;
+    line-height: 3.3em;
+    width: 3.2em;
+    text-align: center;
+    display: block;
+    color: #53777A;
+    z-index: 2;
+  }
+  
+  .left-half-clipper {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    clip: rect(0, 5em, 1em, 2.5em);
+  }
+  
+  
+  .progress-circle.over50 .left-half-clipper {
+    clip: rect(auto, auto, auto, auto);
+  }
+  
+  .value-bar {
+    position: absolute;
+    clip: rect(0, 2.5em, 5em, 0);
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 0.45em solid #53777A;
+    box-sizing: border-box;
+  }
+
+  .progress-circle.p2 .value-bar {
+    transform: rotate(7deg);
+  }
